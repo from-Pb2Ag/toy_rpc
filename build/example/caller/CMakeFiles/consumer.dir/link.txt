@@ -1,0 +1,1 @@
+/usr/local/bin/g++ -g -rdynamic CMakeFiles/consumer.dir/callfriendservice.cpp.o CMakeFiles/consumer.dir/__/friend.pb.cc.o -o /home/yhqian/archives/LABS/toy_rpc/bin/consumer   -L/home/yhqian/archives/LABS/toy_rpc/lib  -Wl,-rpath,/home/yhqian/archives/LABS/toy_rpc/lib /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 

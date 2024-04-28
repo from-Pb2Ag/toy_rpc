@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a CMakeFiles/toy_rpc.dir/rpcapplication.cpp.o CMakeFiles/toy_rpc.dir/rpcconfig.cpp.o CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o CMakeFiles/toy_rpc.dir/rpcchannel.cpp.o CMakeFiles/toy_rpc.dir/rpccontroller.cpp.o CMakeFiles/toy_rpc.dir/logger.cpp.o CMakeFiles/toy_rpc.dir/zookeeperutil.cpp.o
+/usr/bin/ranlib /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a
