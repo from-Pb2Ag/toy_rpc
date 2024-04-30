@@ -16,6 +16,9 @@ int main(int argc, char **argv) {
 
     // caller doesn't have callback function after receive response.
     RpcController controller;
+    // the rpc method specified by `.proto` file is invoked with the function with same name.
+    // in depth it calls `CallMethod` virtual function with `channel_` member.
+    // we assign the `base class` pointer with a `derived class` instance address, and overwrite virtual function.
     stub.GetFriendsList(&controller, &request, &response, nullptr);
 
     if (controller.Failed()) {

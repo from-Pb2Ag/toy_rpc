@@ -250,29 +250,29 @@ rpccontroller.cpp.s:
 	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpccontroller.cpp.s
 .PHONY : rpccontroller.cpp.s
 
-rpcheader.pb.o: rpcheader.pb.cpp.o
+rpcheader.pb.o: rpcheader.pb.cc.o
 .PHONY : rpcheader.pb.o
 
 # target to build an object file
-rpcheader.pb.cpp.o:
-	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o
-.PHONY : rpcheader.pb.cpp.o
+rpcheader.pb.cc.o:
+	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
 
-rpcheader.pb.i: rpcheader.pb.cpp.i
+rpcheader.pb.i: rpcheader.pb.cc.i
 .PHONY : rpcheader.pb.i
 
 # target to preprocess a source file
-rpcheader.pb.cpp.i:
-	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.i
-.PHONY : rpcheader.pb.cpp.i
+rpcheader.pb.cc.i:
+	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
 
-rpcheader.pb.s: rpcheader.pb.cpp.s
+rpcheader.pb.s: rpcheader.pb.cc.s
 .PHONY : rpcheader.pb.s
 
 # target to generate assembly for a file
-rpcheader.pb.cpp.s:
-	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.s
-.PHONY : rpcheader.pb.cpp.s
+rpcheader.pb.cc.s:
+	cd /home/yhqian/archives/LABS/toy_rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/toy_rpc.dir/build.make src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
 
 rpcprovider.o: rpcprovider.cpp.o
 .PHONY : rpcprovider.o

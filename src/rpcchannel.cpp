@@ -34,8 +34,8 @@ void RpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
         return;
     }
     
-    // 定义rpc的请求header
-    mprpc::RpcHeader rpcHeader;
+    // see `rpcheader.proto` to see the rpc header field layout.
+    toy_rpc::RpcHeader rpcHeader;
     rpcHeader.set_service_name(service_name);
     rpcHeader.set_method_name(method_name);
     rpcHeader.set_args_size(args_size);
@@ -49,11 +49,13 @@ void RpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
         return;
     }
 
-    // 组织待发送的rpc请求的字符串
+    // `RPC header length` + `RPC header string` + `RPC request string`.
+    // `RPC header length` takes `4` bytes. consider a header takes 10000 bytes, encode the length with string directly
+    // will takes `5` bytes. So we reinterpret the 32 bits length as string.
     std::string send_rpc_str;
-    send_rpc_str.insert(0, std::string((char*)&header_size, 4)); // header_size
-    send_rpc_str += rpc_header_str; // rpcheader
-    send_rpc_str += args_str; // args
+    send_rpc_str.insert(0, std::string(reinterpret_cast<char *>(&header_size), sizeof(uint32_t)));
+    send_rpc_str += rpc_header_str;
+    send_rpc_str += args_str;
 
     // 打印调试信息
     std::cout << "============================================" << std::endl;

@@ -1,0 +1,8 @@
+0:9:29 =>[info] ddddd
+0:9:29 =>[info] ddddd
+0:9:29 =>[info] service_name: FiendServiceRpc
+0:9:29 =>[info] method_name:GetFriendsList
+13:40:6 =>[info] ddddd
+13:40:6 =>[info] ddddd
+13:40:6 =>[info] service_name: FiendServiceRpc
+13:40:6 =>[info] method_name:GetFriendsList

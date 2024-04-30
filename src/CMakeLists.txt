@@ -2,7 +2,7 @@
 set(SRC_LIST 
     rpcapplication.cpp
     rpcconfig.cpp
-    rpcheader.pb.cpp
+    rpcheader.pb.cc
     rpcprovider.cpp
     rpcchannel.cpp
     rpccontroller.cpp

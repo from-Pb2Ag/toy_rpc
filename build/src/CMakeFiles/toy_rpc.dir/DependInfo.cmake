@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yhqian/archives/LABS/toy_rpc/src/rpcchannel.cpp" "src/CMakeFiles/toy_rpc.dir/rpcchannel.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpcchannel.cpp.o.d"
   "/home/yhqian/archives/LABS/toy_rpc/src/rpcconfig.cpp" "src/CMakeFiles/toy_rpc.dir/rpcconfig.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpcconfig.cpp.o.d"
   "/home/yhqian/archives/LABS/toy_rpc/src/rpccontroller.cpp" "src/CMakeFiles/toy_rpc.dir/rpccontroller.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpccontroller.cpp.o.d"
-  "/home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cpp" "src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o.d"
+  "/home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cc" "src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o.d"
   "/home/yhqian/archives/LABS/toy_rpc/src/rpcprovider.cpp" "src/CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o.d"
   "/home/yhqian/archives/LABS/toy_rpc/src/zookeeperutil.cpp" "src/CMakeFiles/toy_rpc.dir/zookeeperutil.cpp.o" "gcc" "src/CMakeFiles/toy_rpc.dir/zookeeperutil.cpp.o.d"
   )

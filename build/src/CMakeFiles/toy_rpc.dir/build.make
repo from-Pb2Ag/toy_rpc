@@ -97,19 +97,19 @@ src/CMakeFiles/toy_rpc.dir/rpcconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/toy_rpc.dir/rpcconfig.cpp.s"
 	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqian/archives/LABS/toy_rpc/src/rpcconfig.cpp -o CMakeFiles/toy_rpc.dir/rpcconfig.cpp.s
 
-src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o: src/CMakeFiles/toy_rpc.dir/flags.make
-src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o: /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cpp
-src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o: src/CMakeFiles/toy_rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqian/archives/LABS/toy_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o"
-	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o -MF CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o.d -o CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o -c /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cpp
+src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/toy_rpc.dir/flags.make
+src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o: /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cc
+src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/toy_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhqian/archives/LABS/toy_rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o"
+	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o -c /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cc
 
-src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.i"
-	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cpp > CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.i
+src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.i"
+	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cc > CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.i
 
-src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.s"
-	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cpp -o CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.s
+src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.s"
+	cd /home/yhqian/archives/LABS/toy_rpc/build/src && /usr/local/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yhqian/archives/LABS/toy_rpc/src/rpcheader.pb.cc -o CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.s
 
 src/CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o: src/CMakeFiles/toy_rpc.dir/flags.make
 src/CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o: /home/yhqian/archives/LABS/toy_rpc/src/rpcprovider.cpp
@@ -185,7 +185,7 @@ src/CMakeFiles/toy_rpc.dir/zookeeperutil.cpp.s: cmake_force
 toy_rpc_OBJECTS = \
 "CMakeFiles/toy_rpc.dir/rpcapplication.cpp.o" \
 "CMakeFiles/toy_rpc.dir/rpcconfig.cpp.o" \
-"CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o" \
+"CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o" \
 "CMakeFiles/toy_rpc.dir/rpcchannel.cpp.o" \
 "CMakeFiles/toy_rpc.dir/rpccontroller.cpp.o" \
@@ -197,7 +197,7 @@ toy_rpc_EXTERNAL_OBJECTS =
 
 /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcapplication.cpp.o
 /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcconfig.cpp.o
-/home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cpp.o
+/home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcheader.pb.cc.o
 /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcprovider.cpp.o
 /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpcchannel.cpp.o
 /home/yhqian/archives/LABS/toy_rpc/lib/libtoy_rpc.a: src/CMakeFiles/toy_rpc.dir/rpccontroller.cpp.o

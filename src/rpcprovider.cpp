@@ -101,7 +101,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
 
 
     std::string rpc_header_str = recv_buf.substr(4, header_size);
-    mprpc::RpcHeader rpcHeader;
+    toy_rpc::RpcHeader rpcHeader;
     std::string service_name;
     std::string method_name;
     uint32_t args_size;
